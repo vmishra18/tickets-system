@@ -1,7 +1,3 @@
-# Cinema Tickets
-
-Implementation of the DWP cinema tickets exercise. The template layout is kept intact: `TicketService` is unchanged, the `thirdparty.*` code is untouched, and the work is concentrated in `TicketServiceImpl`.
-
 ## Approach
 
 - `TicketServiceImpl` uses constructor injection so the service can be tested with small recording fakes without changing the public contract.
